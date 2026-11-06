@@ -15,12 +15,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup Java
-        uses: actions/setup-java@v4
-        with:
-          distribution: temurin
-          java-version: '17'
-
       - name: Setup Flutter
         uses: subosito/flutter-action@v2
         with:
@@ -28,10 +22,13 @@ jobs:
           cache: true
 
       - name: Generate Android Project
-        run: flutter create --platforms=android .
+        run: flutter create --platforms=android --project-name rekomendasi_film .
 
       - name: Install Dependencies
         run: flutter pub get
+
+      - name: Check Flutter
+        run: flutter analyze
 
       - name: Build APK
         run: flutter build apk --release
@@ -41,4 +38,3 @@ jobs:
         with:
           name: rekomendasi-film-apk
           path: build/app/outputs/flutter-apk/app-release.apk
-          if-no-files-found: error
