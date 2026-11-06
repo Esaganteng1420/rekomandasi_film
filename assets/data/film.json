@@ -1,0 +1,63 @@
+
+[
+  {
+    "id": 1,
+    "judul": "Interstellar",
+    "genre": "Sci-Fi",
+    "tahun": 2014,
+    "rating": 8.7,
+    "durasi": 169,
+    "sinopsis": "Seorang mantan pilot NASA mengikuti misi perjalanan luar angkasa melalui lubang cacing untuk mencari planet baru yang dapat dihuni manusia.",
+    "poster": "assets/images/Interstellar.jpg"
+  },
+  {
+    "id": 2,
+    "judul": "The Conjuring",
+    "genre": "Horror",
+    "tahun": 2013,
+    "rating": 7.5,
+    "durasi": 112,
+    "sinopsis": "Ed dan Lorraine Warren membantu sebuah keluarga yang mengalami kejadian misterius dan menyeramkan di rumah mereka.",
+    "poster": "assets/images/The Conjuring.jpg"
+  },
+  {
+    "id": 3,
+    "judul": "Inception",
+    "genre": "Sci-Fi",
+    "tahun": 2010,
+    "rating": 8.8,
+    "durasi": 148,
+    "sinopsis": "Dom Cobb memiliki kemampuan memasuki mimpi seseorang untuk mencuri rahasia. Ia mendapatkan misi menanamkan sebuah ide ke dalam pikiran seseorang.",
+    "poster": "assets/images/Inception.jpg"
+  },
+  {
+    "id": 4,
+    "judul": "Avengers: Endgame",
+    "genre": "Action",
+    "tahun": 2019,
+    "rating": 8.4,
+    "durasi": 181,
+    "sinopsis": "Para Avengers yang tersisa berusaha mengembalikan kehidupan setelah kehancuran besar akibat tindakan Thanos.",
+    "poster": "assets/images/Avengers_Endgame.jpg"
+  },
+  {
+    "id": 5,
+    "judul": "Coco",
+    "genre": "Animation",
+    "tahun": 2017,
+    "rating": 8.4,
+    "durasi": 105,
+    "sinopsis": "Miguel melakukan perjalanan ke dunia arwah untuk menemukan sejarah keluarganya dan mengejar impiannya dalam dunia musik.",
+    "poster": "assets/images/Coco.jpg"
+  },
+  {
+    "id": 6,
+    "judul": "The Dark Knight",
+    "genre": "Action",
+    "tahun": 2008,
+    "rating": 9.0,
+    "durasi": 152,
+    "sinopsis": "Batman menghadapi Joker, seorang penjahat yang berusaha menciptakan kekacauan di Gotham City.",
+    "poster": "assets/images/Dark Knight.jpg"
+  }
+]
