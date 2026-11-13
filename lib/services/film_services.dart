@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 import '../models/film.dart';
 
-class FilmService {
+class FilmServices {
   static Future<List<Film>> ambilDataFilm() async {
     final String response = await rootBundle.loadString(
       'assets/data/film.json',

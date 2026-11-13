@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import '../models/film.dart';
-import '../services/film_service.dart';
+import '../services/film_services.dart';
 import '../widgets/film_card.dart';
 import 'detail_page.dart';
 
@@ -18,7 +18,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    daftarFilm = FilmService.ambilDataFilm();
+    daftarFilm = FilmServices.ambilDataFilm();
   }
 
   @override

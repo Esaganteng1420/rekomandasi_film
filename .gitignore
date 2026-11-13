@@ -1,0 +1,34 @@
+Flutter dan Dart
+
+.dart_tool/
+.packages
+.pub/
+.pub-cache/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+Android
+
+android/local.properties
+android/key.properties
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+IDE
+
+.idea/
+*.iml
+.vscode/
+
+Sistem operasi
+
+.DS_Store
+Thumbs.db
+
+File sementara
+
+*.log
+*.tmp
